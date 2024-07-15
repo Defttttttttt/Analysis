@@ -1,0 +1,159 @@
+parmname,BasicParameters,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,ParaName,ParaValue,,,,,,,
+info,MaxSpeed,3300,,,,,,,
+info,RatedSpeed,3000,,,,,,,
+$$$,,,,,,,,,
+parmname,RunningState,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,RSID,RSName,StateKey,,,,,,
+info,RS00,Stopped,A000,,,,,,
+info,RS01,Speed Ascending,1100,,,,,,
+info,RS02,Heating Turbine,2000,,,,,,
+info,RS03,Rated Speed Without Load,3000,,,,,,
+info,RS04,Rated Speed Tuning Load,3011,,,,,,
+info,RS05,Rated Speed Fixed and Not Full Load,3020,,,,,,
+info,RS06,Rated Speed Full Load,3030,,,,,,
+info,RS11,Speed Descending Without Load,1200,,,,,,
+info,RS12,Speed Descending With Load,1210,,,,,,
+info,RS13,Load Throw Off,1F1F,,,,,,
+info,RS21,Excellent,,,,,,,
+info,RS22,Normal,,,,,,,
+info,RS23,Bad,,,,,,,
+info,RS66,Haven't Analyzed,,,,,,,
+info,RS99,Fail Analyzed,FFFF,,,,,,
+$$$,,,,,,,,,
+parmname,VibLimitInfo,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,VibTypeID,SignalTypeName,TSAlarm,TSShutdown,SSAlarm,SSShutup,,,
+info,SV00,Shaft Vibration Displacement Overall,150,250,80,100,,,
+info,SV01,Shaft Vibration Displacement <1X,150,250,80,100,,,
+info,SV02,Shaft Vibration Displacement 1X,150,250,80,100,,,
+info,SV03,Shaft Vibration Displacement 2X,150,250,80,100,,,
+info,SV04,Shaft Vibration Displacement 3X,150,250,80,100,,,
+info,SV05,Shaft Vibration Displacement >3X,150,250,80,100,,,
+info,BV00,Bearing Vibration Velocity Overall,150,250,80,100,,,
+info,BV01,Bearing Vibration Velocity <1X,150,250,80,100,,,
+info,BV02,Bearing Vibration Velocity 1X,150,250,80,100,,,
+info,BV03,Bearing Vibration Velocity 2X,150,250,80,100,,,
+info,BV04,Bearing Vibration Velocity 3X,150,250,80,100,,,
+info,BV05,Bearing Vibration Velocity >3X,150,250,80,100,,,
+info,AD00,Axial Displacement Overall,150,250,80,100,,,
+info,AD01,Axial Displacement <1X,150,250,80,100,,,
+info,AD02,Axial Displacement 1X,150,250,80,100,,,
+info,AD03,Axial Displacement 2X,150,250,80,100,,,
+info,AD04,Axial Displacement 3X,150,250,80,100,,,
+info,AD05,Axial Displacement >3X,150,250,80,100,,,
+info,Other,Other kind sensor,150,250,80,100,,,
+$$$,,,,,,,,,
+parmname,VibSensorInfo,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,SensorID,SorsorName,BearingID,ChannelID,SignalProcess ,,,,
+info,B1SV1,Shaft Vibration,B1,CH001,"Overall,<1X,1X,2X,3X,>3X",,,,Speed
+info,B1SV2,Shaft Vibration,B1,CH002,"Overall,<1X,1X,2X,3X,>3X",,,,B1SV1
+info,B2SV1,Shaft Vibration,B2,CH003,"Overall,<1X,1X,2X,3X,>3X",,,,B1SV2
+info,B2SV2,Shaft Vibration,B2,CH004,"Overall,<1X,1X,2X,3X,>3X",,,,B2SV1
+info,B3SV1,Shaft Vibration,B3,CH005,"Overall,<1X,1X,2X,3X,>3X",,,,B2SV2
+info,B3SV2,Shaft Vibration,B3,CH006,"Overall,<1X,1X,2X,3X,>3X",,,,B3SV1
+info,B4SV1,Shaft Vibration,B4,CH007,"Overall,<1X,1X,2X,3X,>3X",,,,B3SV2
+info,B4SV2,Shaft Vibration,B4,CH008,"Overall,<1X,1X,2X,3X,>3X",,,,B4SV1
+info,B5SV1,Shaft Vibration,B5,CH009,"Overall,<1X,1X,2X,3X,>3X",,,,B4SV2
+info,B5SV2,Shaft Vibration,B5,CH010,"Overall,<1X,1X,2X,3X,>3X",,,,B5SV1
+info,B6SV1,Shaft Vibration,B6,CH011,"Overall,<1X,1X,2X,3X,>3X",,,,B5SV2
+info,B6SV2,Shaft Vibration,B6,CH012,"Overall,<1X,1X,2X,3X,>3X",,,,B6SV1
+info,B7SV1,Shaft Vibration,B7,CH013,"Overall,<1X,1X,2X,3X,>3X",,,,B6SV2
+info,B7SV2,Shaft Vibration,B7,CH014,"Overall,<1X,1X,2X,3X,>3X",,,,B7SV1
+info,B1BV1,Shaft Vibration,B1,CH015,"Overall,<1X,1X,2X,3X,>3X",,,,B1BV2
+info,B1BV2,Shaft Vibration,B1,CH016,"Overall,<1X,1X,2X,3X,>3X",,,,B2BV1
+info,B2BV1,Bearing Vibration,B2,CH017,"Overall,<1X,1X,2X,3X,>3X",,,,B2BV2
+info,B2BV2,Bearing Vibration,B2,CH018,"Overall,<1X,1X,2X,3X,>3X",,,,B3BV1
+info,B3BV1,Bearing Vibration,B3,CH019,"Overall,<1X,1X,2X,3X,>3X",,,,B3BV2
+info,B3BV2,Bearing Vibration,B3,CH020,"Overall,<1X,1X,2X,3X,>3X",,,,B4BV1
+info,B4BV1,Bearing Vibration,B4,CH021,"Overall,<1X,1X,2X,3X,>3X",,,,B4BV2
+info,B4BV2,Bearing Vibration,B4,CH022,"Overall,<1X,1X,2X,3X,>3X",,,,B5BV1
+info,B5BV1,Bearing Vibration,B5,CH023,"Overall,<1X,1X,2X,3X,>3X",,,,B5BV2
+info,B5BV2,Bearing Vibration,B5,CH024,"Overall,<1X,1X,2X,3X,>3X",,,,B6BV1
+info,B6BV1,Bearing Vibration,B6,CH025,"Overall,<1X,1X,2X,3X,>3X",,,,B6BV2
+info,B6BV2,Bearing Vibration,B6,CH026,"Overall,<1X,1X,2X,3X,>3X",,,,B6BV1
+info,B7BV1,Bearing Vibration,B7,CH027,"Overall,<1X,1X,2X,3X,>3X",,,,B7BV1
+info,B7BV2,Bearing Vibration,B7,CH028,"Overall,<1X,1X,2X,3X,>3X",,,,B7BV1
+info,B2AD1,Axial Displacement,B2,CH029,"Overall,<1X,1X,2X,3X,>3X",,,,B7BV2
+info,B2AD2,Axial Displacement,B2,CH030,"Overall,<1X,1X,2X,3X,>3X",,,,B2AD1
+info,B2AD3,Axial Displacement,B2,CH031,"Overall,<1X,1X,2X,3X,>3X",,,,B2AD2
+$$$,,,,,,,,,
+parmname,CalConfig,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,ConfigName,ConfigValue,,,,,,,
+info,time_format,%Y-%m-%d %H:%M:%S,,,,,,,
+info,date_format,%Y-%m-%d,,,,,,,
+info,month_format,%Y-%m,,,,,,,
+info,FlagFilePath,./ConfigFiles/FlagFile/CalFlag,,,,,,,
+info,DBWriteFlagFilePath,./ConfigFiles/FlagFile/DBFlag,,,,,,,
+info,OnlineFlagFilePath,./ConfigFiles/FlagFile/CalFlag/,,,,,,,
+info,OnlineWaveFilePath,./OnlineFaultWave/,,,,,,,
+info,VibChannelLimitFilePath,./Parameters/VibCHNLimits.json,,,,,,,
+info,GapsRecordPath,./GapsRecord/,,,,,,,
+info,WavesRecordPath,./WavesRecord/,,,,,,,
+info,FaultDetectResultFilePath,./FaultDetectResult/,,,,,,,
+info,HourParaOptDictFilePath,./ConfigFiles/FlagFile/HourParaOptDict.json,,,,,,,
+info,FourHourParaOptDictFilePath,./ConfigFiles/FlagFile/FourHourParaOptDict.json,,,,,,,
+info,ParametersPath,./Parameters/,,,,,,,
+info,RealTimeRedisKeyFilePath,./ConfigFiles/RealTimeRedisKey.json,,,,,,,
+info,ThermalDBWriteSleepTime,5,,,,,,,
+info,ApproStableCriterion,100,,,,,,,
+info,RunTimeRecordPath,./Parameters/RunTimeRecord.json,,,,,,,
+info,TranscientWaveFilePath,./transcient,,,,,,,
+info,TranscientTimeRecordFilePath,./transcient,,,,,,,
+info,TranscientWaveSavingCount,20,,,,,,,
+info,TranscientWaveReadingInterval,0.5,,,,,,,
+info,TranscientWaveSleepTime,1,,,,,,,
+info,WaveFilenameTime_format,%Y%m%d%H%M%S,,,,,,,
+$$$,,,,,,,,,
+parmname,CalFlagInfo,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,FlagName,InitialValue,,,,,,,
+info,ReadShareMemoryFlag,TRUE,,,,,,,
+info,SecondDetectFlag,FALSE,,,,,,,
+info,MinuteDetectFlag,FALSE,,,,,,,
+info,HourDetectFlag,FALSE,,,,,,,
+info,OnLineDiagFlag,FALSE,,,,,,,
+info,OnLineDiagEndFlag,TRUE,,,,,,,
+info,AnaFlag,FALSE,,,,,,,
+info,DBCHNVibWriteFlag,TRUE,,,,,,,
+info,DBCHNWaveWriteFlag,TRUE,,,,,,,
+info,OthersDBWriteFlag,TRUE,,,,,,,
+info,SpeedChangeFlag,FALSE,,,,,,,
+$$$,,,,,,,,,
+parmname,DBConfig,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,ConfigName,ConfigValue,,,,,,,
+info,MySQLPsw,TDEVib@sh((^,,,,,,,
+info,MySQLDBName,MUVibDB,,,,,,,
+info,MySQLInitialFilePath,./ConfigFiles/MySQLDBInitial.csv,,,,,,,
+info,DBExportTempfileDir,/home/admin/DBExport,,,,,,,
+info,VibWaveRedisIP,localhost,,,,,,,
+info,VibWaveRedisPort,9071,,,,,,,
+info,VibWaveRedisDB,1,,,,,,,
+info,BrowserRedisIP,localhost,,,,,,,
+info,BrowserRedisPort,9071,,,,,,,
+info,BrowserRedisDB,11,,,,,,,
+info,DBAliveIndex,4,,,,,,,
+$$$,,,,,,,,,
+parmname,DMConfig,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,ParmName,ParmValue,,,,,,,
+info,RemotePath1,/home/admin/DataWarehouse/TranscientWavesBackup,,,,,,,
+$$$,,,,,,,,,
+parmname,RunTimeRecordPath,,,,,,,,
+parmtype,dict,,,,,,,,
+colname,ParmName,Path,DeltimeLimit,Unit,,,,,
+info,RunTimeRecord1,./Parameters/ReadAndSaveDBPPandSPEC,60,S,,,,,
+info,RunTimeRecord2,./Parameters/ReadAndSaveDBWave,300,S,,,,,
+info,RunTimeRecord3,./transcient,60,S,,,,,
+info,RunTimeRecord7,./Parameters/testtoredis,60,S,,,,,
+info,RunTimeRecord9,./Parameters/DataManager,5000000,S,,,,,
+info,RunTimeRecord11,./Parameters/HealthEvaluationForBrowser,60,S,,,,,
+info,RunTimeRecord12,./Parameters/UpdateRedisForBrowser,60,S,,,,,
+info,RunTimeRecord13,./Parameters/VibDaq,10,S,,,,,
+info,RunTimeRecord14,./Parameters/ProcessGuard,100,S,,,,,
+$$$,,,,,,,,,

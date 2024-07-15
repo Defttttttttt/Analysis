@@ -1,0 +1,8 @@
+ReadShareMemoryFlag,TRUE
+SecondDetectFlag,FALSE
+MinuteDetectFlag,FALSE
+HourDetectFlag,FALSE
+OnLineDiagFlag,FALSE
+OnLineDiagEndFlag,TRUE
+AnaFlag,FALSE
+SpeedChangeFlag,FALSE
